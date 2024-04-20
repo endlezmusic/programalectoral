@@ -1,0 +1,21 @@
+/* Estilo para los botones */
+input[type="submit"],
+button {
+    display: inline-block; /* Los botones se muestran en línea */
+    padding: 8px 16px; /* Relleno interno del botón */
+    text-align: center; /* Alineación del texto al centro */
+    text-decoration: none; /* Sin decoración de texto */
+    background-color: #008CBA; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 4px 2px; /* Margen exterior */
+    transition-duration: 0.4s; /* Duración de la transición al pasar el ratón */
+}
+
+/* Efecto hover para los botones */
+input[type="submit"]:hover,
+button:hover {
+    background-color: #005f6b; /* Cambio de color de fondo al pasar el ratón */
+}
